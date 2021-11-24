@@ -273,6 +273,71 @@
 }
 % ---------------------------------------------------------------------------
 
+\DeclareOption{AdrianConfig}{
+    % Farben
+    \definecolor{headerblue}{HTML}{2EB6E1}%
+    \definecolor{cvorange}{HTML}{FFC300}
+    \definecolor{cvpurple}{HTML}{B32EE1}
+
+    \definecolor{cvred}{HTML}{E1592E}
+    \definecolor{cvgreen}{HTML}{5DE12E}
+
+
+    % TIMELINE
+    \definecolor{timelinecolour}{HTML}{414B96} %#660022
+    \definecolor{jackbeige}{RGB}{226,212,186} 
+
+
+    \newcommand{\paracolbackgroundoptions}{
+    %\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+    \backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{0.25,0.25,0.25}
+    \backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}[rgb]{1,1,1}
+    \backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}[rgb]{0.25,0.25,0.25}
+    \backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}[rgb]{1,1,1}
+
+    % 0.9,0.9,0.9 -- 0.8,0.8,0.8
+    }
+    \newcommand{\setasidefontcolour}{
+    \color{white}
+    }
+
+    \definecolor{labelcolour}{HTML}{FFFFFF}
+    \definecolor{iconcolour}{HTML}{000000}
+    \definecolor{headerfontbox}{HTML}{000000}
+    \definecolor{headerfontboxfont}{HTML}{FFFFFF}
+    \definecolor{skilllabelcolour}{HTML}{b3b3b3}
+    }
+    % ---------------------------------------------------------------------------
+    \DeclareOption{lighthipster}{
+    % Farben
+    \definecolor{headerblue}{HTML}{2EB6E1}%
+    \definecolor{cvorange}{HTML}{FFC300}
+    \definecolor{cvpurple}{HTML}{B32EE1}
+
+    \definecolor{cvred}{HTML}{E1592E}
+    \definecolor{cvgreen}{HTML}{5DE12E}
+
+
+    % TIMELINE
+    \definecolor{timelinecolour}{HTML}{414B96} %#660022
+    \definecolor{jackbeige}{RGB}{226,212,186}  
+
+    \newcommand{\paracolbackgroundoptions}{
+    \backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{0.9,0.9,0.9}
+    \backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}[rgb]{1,1,1}
+    \backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}[rgb]{0.9,0.9,0.9}
+    \backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}[rgb]{1,1,1}
+    }
+    \newcommand{\setasidefontcolour}{
+    \color{black}
+    }
+    \definecolor{labelcolour}{HTML}{000000}
+    \definecolor{iconcolour}{HTML}{000000}
+    \definecolor{headerfontbox}{HTML}{000000}
+    \definecolor{headerfontboxfont}{HTML}{FFFFFF}
+    \definecolor{skilllabelcolour}{HTML}{b3b3b3}
+}
 
 % ---------------------------------------------------------------------------
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
