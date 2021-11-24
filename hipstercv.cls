@@ -275,12 +275,12 @@
 
 \DeclareOption{AdrianConfig}{
     % Farben
-    \definecolor{headerblue}{HTML}{2EB6E1}%
+    \definecolor{headerblue}{HTML}{00008b}%
     \definecolor{cvorange}{HTML}{FFC300}
     \definecolor{cvpurple}{HTML}{B32EE1}
 
     \definecolor{cvred}{HTML}{E1592E}
-    \definecolor{cvgreen}{HTML}{5DE12E}
+    \definecolor{cvgreen}{HTML}{0064d3}%5DE12E}
 
 
     % TIMELINE

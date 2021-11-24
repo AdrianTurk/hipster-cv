@@ -2,7 +2,7 @@
 % available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight
 \usepackage[utf8]{inputenc}
 \usepackage[default]{raleway}
-\usepackage[margin=1cm, a4paper]{geometry}
+\usepackage[margin=0.5cm, a4paper]{geometry}
 
 
 %------------------------------------------------------------------ Variablen
@@ -28,8 +28,8 @@
 
 
 
-\header{\bg{headerfontbox}{headerfontboxfont}{Captain} }{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge Jack Sparrow}}{\bg{headerfontbox}{headerfontboxfont}{\large Pirate}}{jack.jpg}{headerblue}{3.5cm}{2cm}
-
+\header{}%{\bg{headerfontbox}{headerfontboxfont}{Captain} }
+       {\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge Adrián Turk}}{\bg{headerfontbox}{headerfontboxfont}{\large Developer}}{private/photo.jpg}{headerblue}{3.5cm}{2cm}
 
 
 %------------------------------------------------
@@ -51,114 +51,123 @@
 
 \footnotesize
 {\setasidefontcolour
-\bgupper{cvgreen}{white}{Facts} \\
-\bg{cvgreen}{white}{personal} \\
+\bgupper{cvgreen}{white}{Datos} \\
+\bg{cvgreen}{white}{Personal} \\
 
-\begin{tabular}{ll}
-\faMale&Jack Sparrow \\
-\faGlobe& nationality: English  \\
-\faBirthdayCake&1690 \\
-\faMapMarker&on a ship \\
+\begin{tabular}{cl}
+\faMale&Mario Adrian Turk \\
+\faGlobe& Nacionalidad: Argentino  \\
+\faBirthdayCake&1984 \\
+\faMapMarker&San Miguel - Bs.As. - Argentina \\
+            &(Con posibilidad de reubicación)\\
+\faPhone & (+54) 11-3229-9377\\
+\faAt & \url{ma_turk@yahoo.com}\\
+
 \end{tabular}
 
 \bigskip
 
-\bg{cvgreen}{white}{Areas of specialization} \\
-
-Privateering ~•~ Bucaneering ~•~ Parler
-
-\bigskip
-
-\bgupper{cvgreen}{white}{Skills} \\
+\bgupper{cvgreen}{white}{Habilidades} \\
 \bg{cvgreen}{white}{Languages}
-\bigskip
 
+\bigskip
 
 \begin{minipage}[t]{\leftcolwidth}
-\begin{tabular}{l | ll}
-\textbf{English} & C2 & {\phantom{x}\footnotesize mother tongue} \\
-\textbf{French} & C2 & \pictofraction{\faCircle}{cvpurple}{3}{black!30}{1}{\tiny}
+\begin{tabular}{l|ll}
+\textbf{Inglés Hablado} & \pictofraction{\faCircle}{cvpurple}{2}{black!30}{3}{\tiny}\\
+\textbf{Inglés Escrito} & \pictofraction{\faCircle}{cvpurple}{3}{black!30}{2}{\tiny}\\
+\textbf{Español} & {\phantom{x}\footnotesize{Nativo}}
 \end{tabular}
 \end{minipage}
 
-\bigskip
+\medskip
 
-\bg{cvgreen}{white}{Interests}\\
+\bg{cvgreen}{white}{Intereses}\\
+\bubblediagram{\color{black}{\textbf{Intereses}},  \scriptsize{Proyectos con}\\\scriptsize{Arduino}, \scriptsize{Programación}\\\scriptsize{gráfica}, \scriptsize{Ing. Inversa},\scriptsize{Automatización}}    
 
-\bubblediagram{{\textbf{a pirate's} \\\textbf{life}},  the sea, pillaging, plundering, ships, stealing, hijacking, \textbf{The Black}\\ \textbf{Pearl}}
 
-\hspace{3cm} \color{labelcolour}{OS:} \hspace{0.5em}\icon{\faWindows}{labelcolour}{\Large} \hspace{0.5em} \icon{\faLinux}{labelcolour}{\Large} 
+\hspace{2.5cm} \color{labelcolour}{S.O.'s:} \hspace{0.5em}\icon{\faWindows}{labelcolour}{\Large} \hspace{0.5em} \icon{\faLinux}{labelcolour}{\Large} 
 \bigskip
 
 \bg{cvgreen}{white}{IT \& programming} \\
 
 \begin{minipage}[t]{0.3\textwidth}
 \begin{tabular}{r @{\hspace{0.5em}}l}
-     \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.4}{0.5em}{cvpurple}\\
-     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.55}{0.5em}{cvgreen} \\
-     \bg{skilllabelcolour}{iconcolour}{xslt} & \barrule{0.5}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.5}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.25}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{javascript} & \barrule{0.1}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{C++} &  \barrule{0.23}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{C\#} & \barrule{0.15}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{Ansi C} & \barrule{0.25}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{Python} & \barrule{0.20}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{Arduino} & \barrule{0.35}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{Git/GitHub} & \barrule{0.25}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{BASH} & \barrule{0.33}{0.5em}{cvpurple} \\
 \end{tabular}
 
 
 %\dashrule{}{}
 \end{minipage}
 
+\medskip
 
-\bigskip
+\begin{center}
+    \scalebox{0.8}{
+        \iconcross{\Huge}{white}{cvred}
+            {\href{http://www.linkedin.com/in/AdrianTurk} \faLinkedin}
+            {\href{mailto:ma_turk@yahoo.com} \faAt}
+            {\href{tel:+541132299377} \faPhone}
+            {\href{http://github.com/AdrianTurk} \faGithub}
+        }            
+\end{center}
 
-\scalebox{0.8}{
-\iconcross{\Huge}{white}{cvred}{\color{black!30}\faBook}{\href{mailto:the.latex.ninja@gmail.com}{\faEnvelopeO}}{\faPhone}{\faCode}
-}
+%\phantom{turn the page}
 
-\phantom{turn the page}
-
-\phantom{turn the page}
+%\phantom{turn the page}
 }
 %-----------------------------------------------------------
 \switchcolumn
 
 \small
-\section*{Short Resumé}
-
-\begin{tabular}{r| p{0.4\textwidth} c}
-    \cvevent{2018--2021}{Captain of the Black Pearl}{Lead}{East Indies \color{cvred}}{Finally got the goddamn ship back.}{disney.png} \\
-    \cvevent{2019}{Freelance Pirate}{Bucaneering}{Tortuga \color{cvred}}{This and that. The usual, aye?}{medal.jpeg} \\
-    \cvevent{2016--2017}{Captain of the Black Pearl}{Lead}{Tortuga \color{cvred}}{Found a secret treasure, lost the ship.}{medal.jpeg}
-\end{tabular}
-
 \vspace{4em}
 
 \begin{minipage}[t]{0.4\textwidth}
-\section*{Degrees}
-\begin{tabular}{r p{0.6\textwidth} c}
-    \cvdegree{1710}{Captain}{Certified}{Tortuga Uni \color{headerblue}}{}{disney.png} \\
-    \cvdegree{1715}{Bucaneering}{M.A.}{London \color{headerblue}}{}{medal.jpeg} \\
-    \cvdegree{1720}{Bucaneering}{B.A.}{London \color{headerblue}}{}{medal.jpeg}
+\section*{Estudios}
+\begin{tabular}[t]{r p{0.55\textwidth} c}
+    \cvdegree{2021--2026}
+        {(Estudiando)}
+        {Ingenieria en Sistemas de\newline Información}
+        {U.T.N.}
+        {F.R.B.A. \color{headerblue}}
+        {}
+        {private/utn.png} \\
+    \cvdegree{1998--2003}
+        {(Recibido)}
+        {Tecnico en Computación}
+        {ENET Nº32\newline "Gral. Jose de San Martin"}
+        {Bs.As. - Argentina \color{headerblue}}
+        {}
+        {blank.png} 
+    %\cvdegree{1720}{Bucaneering}{B.A.}{London \color{headerblue}}{}{medal.jpeg}
 \end{tabular}
 \end{minipage}\hfill
 \begin{minipage}[t]{0.16\textwidth}
-\section*{Hobbies}
-% usage \hobbyicon{<fontawesome icon}{Text}{background color of circle}{size of icon}{space text below icon}
-\hobbyicon{\color{iconcolour}\faFlask}{Rhum}{cvgreen}{\iconsize}{2em} \hfill
-\hobbyicon{\color{iconcolour}\faBook}{The Code}{cvorange}{\iconsize}{2em}
+    \section*{Hobbies}
+    % usage \hobbyicon{<fontawesome icon}{Text}{background color of circle}{size of icon}{space text below icon}
+    \hobbyicon{\color{iconcolour}\faFlask}{Rhum}{cvgreen}{\iconsize}{2em} \hfill
+    \hobbyicon{\color{iconcolour}\faBook}{The Code}{cvorange}{\iconsize}{2em}
 
-\hobbyicon{\color{iconcolour}\faComment}{Parler}{cvpurple}{\iconsize}{2em} \hspace{1em}
-\hobbyicon{\color{iconcolour}\faBeer}{Beer}{headerblue}{\iconsize}{2em}
+    \hobbyicon{\color{iconcolour}\faComment}{Parler}{cvpurple}{\iconsize}{2em} \hspace{1em}
+    \hobbyicon{\color{iconcolour}\faBeer}{Beer}{headerblue}{\iconsize}{2em}
 \end{minipage}
 
-\vspace{4em}
+\vspace{2em}
 
 \begin{minipage}[t]{0.3\textwidth}
-\section*{Certificates \& Grants}
+\section*{Conocimientos y certificados}
 \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
     1708 & Captain's Certificates \\
     1710 & Travel grant \\
     1715--1716 & Grant from the Pirate's Company
 \end{tabular}
-\section*{Strenghts}
+\section*{Soft Skills}
 \cvtag{honest}
 \cvtag{thieving}
 \cvtag{handsome}
@@ -180,13 +189,23 @@ Privateering ~•~ Bucaneering ~•~ Parler
 \end{tabular}
 \end{minipage}
 
-
-
-
-
-
-
-
+\section*{Historial Laboral}
+%\smartdiagramset{}
+%\smartdiagramanimated[bubble diagram]{a,b,c,d}
+\begin{tabular}{r| p{0.45\textwidth} c}
+    \cvevent{2019--2020}{Electromecánico}{Jefe de Taller}{\href{http://www.comasa-sa.com/}{Comasa S.A.} \color{cvred}}
+        {Coordinacion de personal a cargo; Programacion de paradas de maquina; Armado de estructura administrativa; Coordinacion con otros sectores. 7 personas a cargo. \newline \textbf{Referencias:} \newline Jorge Merino (RRHH) : \href{cel:+54-11-5509-5709}{+54-11-5509-5709} \newline Ezequiel Pretti (Prod.): \href{cel:+54-11-5746-6410}{+54-11-5746-6410}}
+        {private/comasa.png} \\
+    \cvevent{2008--2016}{Electromecanico}{Técnico + Jefe de taller}{Robertone S.R.L. \color{cvred}}
+        {Inicie como oficial electromecánico, debido a capacidades blandas y técnicas, promovido a jefe de taller. Me encargaba tambien del trato directo con clientes. 4 Personas a cargo.\newline \textbf{Referencias:} \newline Carlos Roberto (Gerente) \href{cel:+54-11-6971-7326}{+54-11-6971-7326}.}
+        {private/robertone.png} \\
+    \cvevent{2008--2016}{Electromecanico}{Técnico}{Davatec Servicios Industriales \color{cvred}}
+        {Armado de tableros electricos, Refrigeracion industrial, electromecánica general}
+        {blank.png} \\
+    \cvevent{2004--2008}{Administrativo y Ventas}{Ventas}{Comercio minorista \color{cvred}}
+        {Coordinacion de compras; Definicion de politicas y objetivos; Atencion al cliente.}
+        {blank.png}
+\end{tabular}
 
 \vfill{} % Whitespace before final footer
 
@@ -196,7 +215,7 @@ Privateering ~•~ Bucaneering ~•~ Parler
 \setlength{\parindent}{0pt}
 \begin{minipage}[t]{\rightcolwidth}
 \begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
-{\small Jack Sparrow \icon{\faEnvelopeO}{cvpurple}{} The Black Pearl \icon{\faMapMarker}{cvpurple}{} Tortuga \icon{\faPhone}{cvpurple}{} 0099/333 5647380 \newline\icon{\faAt}{cvpurple}{} \protect\url{jack@sparrow.com}
+{\small Jack Sparrow \icon{\faEnvelope[regular]}{cvpurple}{} The Black Pearl \icon{\faMapMarker}{cvpurple}{} Tortuga \icon{\faPhone}{cvpurple}{} 0099/333 5647380 \newline\icon{\faAt}{cvpurple}{} \protect\url{jack@sparrow.com}
 }
 \end{center}
 \end{minipage}
